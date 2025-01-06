@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type= "png" href="./img/favicon/cv.png">
+    <script src="https://kit.fontawesome.com/a73b52d339.js" crossorigin="anonymous"></script>
+    <link rel="icon" type= "png" href="./img/favicon/cv.png"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
     <title>Votre CV</title>
 </head>
 <body>
     <header>
+       
+        <img src="./img/photo_cv.png" alt="photo cv">
         <h1>Yoann Monlouis-Félicité</h1>
         <h2>Développeur Web et Web Mobile</h2>
 
-        <!-- Inserer photo de profil  -->
+        
 
         <div id="Contact">
-            <img src="./img/Icon/enveloppe.png" alt="enveloppe"><p>yolm@mail.com</p>
-            <img src="./img/Icon/silhouette-de-poignee-de-telephone.png" alt="telephone"><p>0767676767</p>
-            <img src="./img/Icon/maison.png" alt="une maison"><p>7 rue du Royaume, 77770 BAILLY-ROMAINVILLIERS</p>
-            <img src="./img/Icon/voiture-avant.png" alt="voiture"><p>Permis B</p>
+            <i class="fa-solid fa-envelope"></i><p>yolm@mail.com</p>
+            <i class="fa-solid fa-phone"></i><p>0767676767</p>
+            <i class="fa-solid fa-house"></i><p>7 rue du Royaume, 77770 BAILLY-ROMAINVILLIERS</p>
+            <i class="fa-solid fa-car"></i><p>Permis B</p>
         </div>
     </header>
     <main>
         <section>
             <article id="Profil">
                 <h3>Profil</h3><hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Passionné par la création d'interfaces utilisateur intuitives et élégantes, je suis un développeur web front-end avec une solide expérience dans la conception, le développement et l'optimisation de sites web interactifs. Expert en HTML, CSS et JavaScript.<br>
+
+                        Mon approche centrée sur l'utilisateur me permet de traduire des concepts complexes en expériences fluides et accessibles, tout en respectant les meilleures pratiques de développement et les normes d'accessibilité. Grâce à une veille technologique constante, je m'assure de livrer des solutions innovantes et adaptées aux besoins du marché.</p>
             </article>
             <article id="Formation">
                 <h3>Formations</h3><hr>
@@ -72,10 +75,44 @@
         <aside>
             <article id="Skills">
                 <h3>Compétences</h3><hr>
+                
                 <h4>HTML</h4>
+                <div class"star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>              
                 <h4>CSS</h4>
+                <div class"star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
                 <h4>Javascript</h4>
+                <div class"star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
                 <h4>PHP</h4>
+                <div class"star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                
+                      
+                  
+                
+              
 
                 <!-- Inserer les étoiles -->
             </article>
@@ -121,6 +158,11 @@
     </main>
     <footer>
         <!-- Inserer symbole reseaux sociaux -->
+        <div id="Social">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+        </div>
         <p><small>Mis à jour le : <time datetime="2025-01-04">04/01/2025</time></small></p>
     </footer>
 
