@@ -5,23 +5,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <script src="https://kit.fontawesome.com/a73b52d339.js" crossorigin="anonymous"></script>
-        <link rel="icon" type= "png" href="./img/favicon/cv.png"/>
+        <link rel="icon"  href="./img/favicon/cv.png"/>
         <link rel="stylesheet" href="./assets/css/style.css"/>
         <title>Votre CV</title>
     </head>
     <body>
         <header>
             <figure>
-                <img src="./img/photo_cv.png" alt="photo cv">
+                <a href="./img/photo_cv.png"><img src="./img/photo_cv.png" alt="photo cv"></a>
             </figure>
             <section class="container">
                 <h1>Yoann Monlouis-Félicité</h1>
                 <h2>Développeur Web et Web Mobile</h2>
                 <div class="contact-container">
                 
-                    <div class="contact-items"><i class="fa-solid fa-envelope"> </i> <p>yomlf@gmail.com</p></div>
-                    <div class="contact-items"><i class="fa-solid fa-house"></i> <p>7 Rue Leon Blum, 75017</p></div>
-                    <div class="contact-items"><i class="fa-solid fa-phone"></i> <p>0767 706777</p></div>
+                    <div class="contact-items"><i class="fa-solid fa-envelope"> </i><a href="mailto:ymlf@gmail.com"><p>yomlf@gmail.com</p></a></div>
+                    <div class="contact-items"><i class="fa-solid fa-house"></i><a href="https://maps.app.goo.gl/2VSaMxZ7yzEAAjTm8" target="_blank"><p>7 Av. Leon Blum, 92160</p></a></div>
+                    <div class="contact-items"><i class="fa-solid fa-phone"></i><a href="tel:0767706777" target="_blank"> <p>0767 706777</p></a></div>
                     <div class="contact-items"><i class="fa-solid fa-car"></i> <p>Permis B</p></div>
                 </div>
             </section>
@@ -29,9 +29,9 @@
         <aside>
             <section class="skill">
                     <h3>Compétences</h3><hr>
-                    <ul>
-                        <div class="Niveau">
-                            <li><h4>HTML</h4></li>
+                    
+                        <div class="niveau">
+                            <h4>HTML</h4>
                             <div class= "star">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -40,8 +40,8 @@
                                     <i class="fa-solid fa-star"></i>
                             </div> 
                         </div> 
-                        <div class="Niveau">            
-                            <li><h4>CSS</h4></li>
+                        <div class="niveau">            
+                            <h4>CSS</h4>
                             <div class="star">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -50,8 +50,8 @@
                                     <i class="fa-regular fa-star"></i>
                             </div>
                         </div>
-                        <div class="Niveau"> 
-                            <li><h4>Javascript</h4></li>
+                        <div class="niveau"> 
+                            <h4>Javascript</h4>
                             <div class="star">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -60,8 +60,8 @@
                                     <i class="fa-regular fa-star"></i>
                             </div>
                         </div> 
-                        <div class="Niveau">     
-                            <li><h4>PHP</h4></li>
+                        <div class="niveau">     
+                            <h4>PHP</h4>
                             <div class="star">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-regular fa-star"></i>
@@ -70,18 +70,24 @@
                                     <i class="fa-regular fa-star"></i>
                             </div>
                         </div>
-                    </ul>
+                    
                 </section>
                 <section class="languages">
-                    <ul>
+                    
                         <h3>Langues</h3><hr>
-                        <li><h4>Français</h4></li>
-                        <p>Langue Maternelle</p>
-                        <li><h4>Anglais</h4></li>
-                        <p>Professionnel</p>
-                        <li><h4>Espagnol</h4></li>
-                        <p>Notions</p>
-                    </ul>
+                        <div class="frflexc">
+                            <h4>Français</h4>
+                            <span class="langlvl">Langue Maternelle</span>
+                        </div>
+                        <div class="engflexc">
+                            <h4>Anglais</h4>
+                            <span class="langlvl">Professionnel</span>
+                        </div>
+                        <div class="espflexc">
+                           <h4>Espagnol</h4>
+                            <span class="langlvl">Notions</span>
+                        </div>
+                    
                 </section>
                 <section class="quality">
                     <h3>Qualités</h3><hr>
@@ -95,79 +101,96 @@
                 <section class="hobbies">
                     <h3>Centres d'intérêt</h3><hr>
                     <ul>
-                        <li><span class="noir">Sports</li></span>
-                        <li><span class="noir">Arts</li></span>
-                        <li><span class="noir">Technologies</li></span>
-                        <li><span class="noir">Cuisine</li></span>
+                        <li><span class="noir">Sports</span></li>
+                        <li><span class="noir">Arts</span></li>
+                        <li><span class="noir">Technologies</span></li>
+                        <li><span class="noir">Cuisine</span></li>
                     </ul>
                 </section>
         </aside>
         <main class="container">
-            <section class="container">
-                    <article class="Profil">
+            <section class="profile">
+                    
                         <h3>Profil</h3><hr>
                         <p>Passionné par la création d'interfaces utilisateur intuitives et élégantes, je suis un développeur web front-end avec une solide expérience dans la conception, le développement et l'optimisation de sites web interactifs. Expert en HTML, CSS et JavaScript.<br>
 
                                 Mon approche centrée sur l'utilisateur me permet de traduire des concepts complexes en expériences fluides et accessibles, tout en respectant les meilleures pratiques de développement et les normes d'accessibilité. Grâce à une veille technologique constante, je m'assure de livrer des solutions innovantes et adaptées aux besoins du marché.</p>
-                    </article>
+                   
             </section>
-            <section class="Formation">           
+            <section class="formation">           
                 <h3>Formations</h3><hr>
-                <article class="containerF1">
-                    <h4>Titre Professionnel DWWM</h4>
-                    <div class="Lieu"><p>Centre Européen de Formation</p></div>
-                    <div class="Date"><p>2024/2025</p></div>
+                <article>
+                    <div class="containerF1">
+                        <h4>Titre Professionnel DWWM</h4>
+                        <div class="Date">2024/2025</div>
+                    </div>
+                    <div class="Lieu">Centre Européen de Formation</div>
                 </article>
-                <article class="containerF2">
-                    <h4>Licence LLCER - Spécialité Anglais</h4>
-                    <div class="Lieu"><p>Université de Grenoble</p></div>
-                    <div class="Date"><p>2010/2013</p></div>
+                <article>
+                    <div class="containerF2">
+                        <h4>Licence LLCER - Spécialité Anglais</h4>
+                        <div class="Date">2010/2013</div>
+                    </div>
+                    <div class="Lieu">Université de Grenoble</div>
                 </article>
-                <article class="containerF3">
-                    <h4>Baccalauréat STG - Comptailité et Finances des Entreprises</h4>
-                    <div class="Lieu"><p>Lycée de Saint-Just</p></div>
-                    <div class="Date"><p>2010</p></div>
+                <article>
+                    <div class="containerF3">
+                        <h4>Baccalauréat STG - Comptailité et Finances des Entreprises</h4>
+                        <div class="Date">2010</div>
+                    </div>
+                    <div class="Lieu">Lycée de Saint-Just</div>
                 </article>
             </section>
-            <section class="Stage">
+            <section class="stage">
                 <h3>Stages</h3><hr>
-                <article id="containerS1">
-                    <h4>Assistant ingénieur du son</h4>
+                <article>
+                    <div class="containerS1">
+                        <h4>Assistant ingénieur du son</h4>
+                        <div class="Date">2020</div>
+                    </div>
                     <div class="Lieu">Studio Bel Organe</div>
-                    <div class="Date">2020</div>
                 </article>
-                <article class="containerS2">
-                    <h4>Assistant ingénieur du son</h4>
+                <article>
+                    <div class="containerS2">
+                        <h4>Assistant ingénieur du son</h4>
+                        <div class="Date">2021</div>
+                    </div>
                     <div class="Lieu">Studio du Rhone</div>
-                    <div class="Date">2021</div>
                 </article>
             </section>
-            <section class="Experience">    
+            <section class="experience">    
                 <h3>Expériences</h3><hr>
-                <article class="containerE1">
-                    <h4>Employé Logistique</h4>
+                <article>
+                    <div class="containerE1">
+                        <h4>Employé Logistique</h4>
+                        <div class="Date">2021/2024</div>
+                    </div>
                     <div class="Lieu">Castorama</div>
-                    <div class="Date">2021/2024</div>
                 </article>
-                <article class="containerE2">
-                    <h4>Ingénieur du son : Mixage, Post-Production</h4>
+                <article> 
+                    <div class="containerE2">
+                        <h4>Ingénieur du son : Mixage, Post-Production</h4>
+                        <div class="Date">2022</div>
+                    </div>
                     <div class="Lieu">TF1</div>
-                    <div class="Date">2022</div>
                 </article>
-                <article class="containerE3">
-                    <h4>Employé Logistique Polyvalent</h4>
+                <article> 
+                    <div class="containerE3">
+                        <h4>Employé Logistique Polyvalent</h4>
+                        <div class="Date">2019/2021</div>
+                    </div>
                     <div class="Lieu">Woodbrass</div>
-                    <div class="Date">2019/2021</div>
                 </article>
             </section>
         </main>
-        <footer class"container">
-            <div id="Social">
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-github"></i>
-                    <i class="fa-brands fa-linkedin"></i>
+        <footer class="container">
+            <div class="social">
+
+                <span class="insta"><i class="fa-brands fa-instagram"></i></span>
+                <span class="gith"><i class="fa-brands fa-github"></i></span>
+                <span class="linkedin"><i class="fa-brands fa-linkedin"></i></span>
             </div>
-            <p><small>Mis à jour le : <time datetime="2025-01-04">04/01/2025</time></small></p>
+            <p><small>Mis à jour le : <time datetime="2025-01-08">08/01/2025</time></small></p>
         </footer>
     </body>
 </html>
