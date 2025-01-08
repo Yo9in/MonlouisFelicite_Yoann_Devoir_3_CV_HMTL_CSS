@@ -25,9 +25,7 @@ h1, h2 {
     font-family: "Lato", serif;
     color : rgb(255, 255, 255);
     text-align: center;
-    
 }
-
 
 h3 {
     font-family: "Lato", serif;
@@ -38,22 +36,17 @@ h4 {
     font-family: "Lato", serif;
 }
 
-p {
+p, li, .langlvl {
     font-family: "Raleway", serif;
-}
-
-li  {
-    font-family: "Raleway", serif;   
 }
 
 .Lieu {
     font-family: "Raleway-Italic";
 }
+
 .Date {
     font-family: "Raleway", serif;
     color: rgb(23, 171, 179);
-    text-align: right;
-   
 }
 
 small {
@@ -66,16 +59,26 @@ header{
     background-color: rgb(23, 171, 179);
 
     display: flex;
-    
+}
 
+header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 
+    
+
+
+article:hover {
+    
+    border: 1px solid rgb(227, 227, 227);
+    background-color: rgb(227, 227, 227);
+    border-left: 5px solid rgb(23, 171, 179);
+}
 
 
 .contact-container {
-
-    
     max-width: 600px;
     min-height: 200px;
    
@@ -85,50 +88,36 @@ header{
     
     gap: 20px;
     color : rgb(255, 255, 255);
-   
-    
-    
 }
 
 .contact-items {
-    /* width: 200px; */
+   
     color : rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 20px;
-   
-
 }
-
-
-
 
 figure {
     padding : 50px;
-    /* display : flex; */
+   
     width : 400px;
 }
 
 img{
-    
-    /* justify-content: center;
-    align-items: center; */
     width: 200px;
     height: 200px;
     object-fit: cover;
     border: 5px solid rgb(255, 255, 255);
     border-radius: 50%;
-    
 }
 
+img:hover{
+    cursor: zoom-in;
+}
 
-
-
-
-
-
-main, aside {
+main {
     display: block;
 }
 
@@ -137,39 +126,32 @@ main, aside {
 }
 
 aside {
-    
-    width: 30%;
-    padding-bottom: 20%;
-    float: left;
+    width: 34%;
+    padding-bottom: 40%;
     border: rgb(245, 245, 245);
     background-color: rgb(245, 245, 245);
     min-height: 80%;
-  
 }
 
 aside section {
-   
-  padding: 10%;
+   padding: 10%;
 }
-
-
-
 
 main section {
-    width: 60%;
-    max-width: 60%;
+    width: 58%;
     margin: 0 30%;
-    padding: 20px 0;
-    
+    padding: 10px 20px;
+    height: 80%;
 }
 
-
-    
+.profile p {
+    text-indent: 10%;
+    text-justify: auto;
+}
 
 hr {
     border: 1px solid;
     color: rgba(227, 227, 227, 0.7);
-    
 }
 
 .skill ul {
@@ -194,44 +176,47 @@ li > .noir {
     color : black;
 }
 
-
-
-    
-    
-
-
-.fa-star {
-   
-    
-    color : rgb(23, 171, 179);
-    
-}
-
 .niveau {
-    display : inline-block;
+     display: flex;
+     justify-content: space-between;
 }
 
-
-
-
+.frflexc, .engflexc, .espflexc {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.fa-star {
+   color : rgb(23, 171, 179);
+}
 
 body {
-    margin: 100px;
+    width : 1160px;
+    margin: 0 auto;
     height: 100%;
-    background-clip: rgb(227, 227, 227);
-    
-    
-   
 }
 
-
-
-
+.containerF1, .containerF2, .containerF3, .containerS1, .containerS2, .containerE1, .containerE2, .containerE3  {
+    display : flex;
+    justify-content: space-between;
+}
 
 .formation {
-    display: flex
+    display: flex;
+    flex-direction: column;    
 }
 
+.stage > article {
+    padding: 20px 0;
+}
+
+.formation > article {
+    padding: 20px 0;
+}
+
+.experience > article {
+    padding: 20px 0;
+}
 
 
 
@@ -256,15 +241,21 @@ footer {
     width: 100%;
     border: 1px solid rgb(23, 171, 179);
     background-color: rgb(23, 171, 179);
-    padding : 30px 0;
+    padding : 20px 0;
  }
 
- #social {
+ .social {
      display : flex;
      flex-direction: row;
      justify-content: space-evenly;
      color: rgb(255, 255, 255);
+     gap: 20px;
  }
+
+.insta:hover, .gith:hover, .linkedin:hover {
+     opacity: 0.4;
+ }
+
 
  footer i {
      color: rgb(255, 255, 255);
